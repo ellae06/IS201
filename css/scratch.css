@@ -1,0 +1,113 @@
+.common{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.common.headers {
+    background-image: url(../assets/img/IMG_1838\ 3.JPG); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    height: 500px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.header{
+    height: 100px;
+    background-color: palevioletred;
+    color: white;
+    line-height: 100px;
+}
+
+.mainbody{
+    background-color: #FED9EE;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.footer{
+    height: 25px;
+    font-size: 10px;
+    padding-top: 15px;
+    background-color: palevioletred;
+    color: white;
+    position: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+nav{
+    background-color: #FEA0D6;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a:hover{
+    background-color: white;
+}
+nav a{
+    float: left;
+    color: black;
+    padding: 10px 13px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.scratch.photo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.common.footer {
+    text-align: center;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+.event-rank {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FED9EE;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* optional spacing */
+}
+
+.top a {
+    display: inline-block;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px white;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.top a:hover {
+    opacity: 1;
+    background-color: #ffc7e0;
+}
+
+.top {
+    text-align: center;
+    margin-top: 20px;
+}
