@@ -4,11 +4,11 @@
 }
 
 .common.headers {
-    background-image: url('/IS201/assets/img/IMG_1838-3.JPG'); /* Replace with your image path */
+    background-image: url('/IS201/assets/img/IMG_1838-3.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 25%;
-    height: 500px; /* Adjust height as needed */
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
